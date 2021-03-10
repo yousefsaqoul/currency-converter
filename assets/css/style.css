@@ -1,0 +1,52 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background: #262a63;
+  color: white;
+  text-align: center;
+  font-family: "Open Sans", sans-serif;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+header {
+  background: rgb(43, 168, 226);
+  height: 100px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+header div {
+  margin-right: 30%;
+}
+.exchangeLogo {
+  margin-top: 30px;
+}
+h2 {
+  font-size: 2.5em;
+}
+section div {
+  border: 1px solid #fff;
+  width: 900px;
+  text-align: center;
+  margin: 10px;
+}
+section div:first-child {
+  margin-top: 30px;
+}
+
+#inputFrom,
+#inputTo,
+#selectTo,
+#selectFrom {
+  border-radius: 7px;
+  margin: 30px;
+  width: 300px;
+  height: 50px;
+  padding-left: 10px;
+}
